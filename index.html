@@ -16,6 +16,9 @@
             margin: 0;
             box-sizing: border-box;
         }
+        body{
+            overflow-x: hidden;
+        }
 
         .header {
             display: flex;
@@ -94,21 +97,46 @@
         .carousel-indicators .active {
             background-color: #0e0e0e;
         }
+
+        .main{
+            padding-top: 10px;
+            position: relative;
+        }
+
+        .circle1{
+            position: absolute;
+            background-color: #e79a31;
+            height: 300px;
+            width: 300px;
+            top: -100px;
+            right: -100px;
+            border-radius: 50%;
+            z-index: -2;
+        }
+
+
+        @media only screen and (max-width: 600px){
+            .brand img{
+                width: 200px;
+            }
+        }
     </style>
 </head>
 
 <body>
-<div class="container pt-5">
+<!--    <div class="circle1"></div>-->
+<div class="container main">
     <div class="header">
         <a href="https://tolearntoearn.com" class="brand"><img src="Images/logo.svg" width="300" alt="brand"/></a>
-        <a href="#register" class="btn text-light rounded-pill fw-bold align-items-center" style="background-color: #f98908">
+<!--        <a href="#register" class="btn rounded-pill fw-bold align-items-center" style="background-color: white;color: #222a34">-->
+        <a href="#register" class="btn text-light rounded-pill fw-bold align-items-center" style="background-color: #f98908;">
             Register
         </a>
     </div>
     <div class="home">
         <h2 class="heading fade show">Graphic Design Workshop</h2>
         <div class="home-discrip">
-            <span class="marathi-font"><i>शिका मराठीतून ग्राफिक डिजाईन फक्त ३ दिवसात .  </i></span><br>
+            <span class="marathi-font"><i>शिका मराठीतून ग्राफिक डिजाईन फक्त ३ दिवसात .</i></span><br>
             <span class="discrip-text">3 Days Live Interactive Graphic Design Workshop<br> Learn Great Design In Just 3 Days in 3 Hours.
             <br>
             Graphic Design Workshop which covers Design Theory, Branding, Logo Design, How to earn
