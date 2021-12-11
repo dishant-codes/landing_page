@@ -114,6 +114,35 @@
             z-index: -2;
         }
 
+        .registerBtn{
+            animation: zoom 1.2s infinite;
+            /*animation: shake .5s alternate infinite;*/
+
+        }
+
+        .registerBtn:hover{
+            animation: none;
+        }
+
+        @keyframes zoom {
+            from{
+                transform: scale(.6);
+            }
+            to{
+                transform: scale(1);
+            }
+        }
+
+        @keyframes shake {
+            from{
+                transform: rotate(5deg);
+            }
+            to{
+                transform: rotate(-5deg);
+            }
+        }
+
+
 
         @media only screen and (max-width: 600px){
             .brand img{
@@ -121,6 +150,10 @@
             }
         }
     </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+
+    </script>
 </head>
 
 <body>
@@ -181,7 +214,7 @@
         </div>
 
         <div>
-               <h2 class="mb-0"> All I ask is that you take action FAST.</h2>
+               <h2 class="mb-0"> All You Have To Do is Take Action Right Now.</h2>
                <p class="home-discrip register-details" style="margin: .5em auto;"> Why? Because seats are strictly limited (Only 100)<br>
                    <span style="font-size: .8em;font-weight: bold">Workshop Date : 15th Dec. 10:00 Am (IST)</span>
                    <span style="display: flex;justify-content: center"> Total Value Rs. <s style="width: 70px"> 5999</s>&nbsp;Right Now Only At </span>
@@ -198,8 +231,7 @@
             <li class="list-group-item active fs-3" style="background-color: #f98908" aria-current="true">तुम्ही काय शिकाल:</li>
             <li class="list-group-item">ग्राफिक शिझायनर होण्यासाठी आवश्यक असलेली मूलभूत कौिल्येशिकाल.</li>
             <li class="list-group-item">इमेज मेककिं ग आशि टायपोग्रािीद्वारेसिंवाि कसा साधावा.</li>
-            <li class="list-group-item">टायपोग्रािी, रिंग शसद्ािंत, िोटो, लेआउट, ब्लॉककिं ग आशि इतर शिझाइन शसद्ािंत आशि कौिल्ये
-                समजून घ्याल</li>
+            <li class="list-group-item">टायपोग्राफी ,रंग सिद्धांत ,फोटो ,लेआउट ,ब्लॉकिंग आणि  इतर डिजाईन सिद्धांत आणि कौशल्ये समजून घ्याल .</li>
             <li class="list-group-item">PowerPoint 2013 चा शिझाईनसाठी वापर.</li>
             <li class="list-group-item">युट्यूब थिंबनेल्स आशि सोिल मीशिया ग्राफिक्स कसे तयार करावे.</li>
             <li class="list-group-item">लोगो शिझाइन आशि ब्रँडििंग प्रकल्पािंमध्ये तुमची सजजनिीलता वाढवण्यासाठी िब्ि मॅडपिंग आशि
@@ -262,7 +294,7 @@
             </button>
         </div>
         <div class="text-center">
-            <h2 class="mb-0"> All I ask is that you take action FAST.</h2>
+            <h2 class="mb-0"> All You Have To Do is Take Action Right Now.</h2>
             <p class="home-discrip register-details" style="margin: .5em auto"> Why? Because seats are strictly limited (Only 100)<br>
                 <span style="font-size: .8em;font-weight: bold">Workshop Date : 15th Dec. 10:00 Am (IST)</span>
                 <span style="display: flex;justify-content: center"> Total Value Rs. <s style="width: 70px"> 5999</s>&nbsp; Right Now Only At </span>
@@ -310,7 +342,7 @@
     </div>
 
     <div class="text-center my-5">
-        <h2 class="mb-0"> All I ask is that you take action FAST.</h2>
+        <h2 class="mb-0"> All You Have To Do is Take Action Right Now.</h2>
         <p class="home-discrip register-details" style="margin: .5em auto"> Why? Because seats are strictly limited (Only 100)<br>
             <span style="font-size: .8em;font-weight: bold">Workshop Date : 15th Dec. 10:00 Am (IST)</span>
             <span style="display: flex;justify-content: center"> Total Value Rs. <s style="width: 70px"> 5999</s>&nbsp; Right Now Only At </span>
